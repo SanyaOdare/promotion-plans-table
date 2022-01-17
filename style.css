@@ -1,10 +1,13 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {  
   font-family: "Montserrat", sans-serif;
   background-color: #292c33;
   color: #fff;
@@ -52,9 +55,52 @@ h1 {
 .table-center th:last-child {
   background-color: #08b9c9;  
 }
+td {
+  text-transform: capitalize;
+}
+
+.table-center td:nth-of-type(2),
+.table-center td:nth-of-type(3),
+.table-center td:last-child {  
+  text-align: center;
+}
+
+.fa-minus {  
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.fol-month-starter,
+.fa-check {
+  color: #ff9c00;  
+}
+
+.fol-month-adv {
+  color: #ec3d44;  
+}
+
+.fol-month-ent {
+  color: #08b9c9;  
+}
+
+.fol-month-starter,
+.fa-check,
+.fol-month-adv,
+.fol-month-ent {
+  font-size: 30px;
+  font-weight: 700;
+}
 
 .buy-now {
   background-color: #ec3d44;
   border-radius: 50px;
-  width: ;
+  padding: .7rem 2rem;
+  font-size: .7rem;  
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+button.buy-now {
+  margin: auto;
 }
