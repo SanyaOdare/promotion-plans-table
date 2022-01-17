@@ -106,11 +106,7 @@ button.buy-now {
 }
 
 @media screen and (min-width: 600px) {
-  .table-center {
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-    width: 50vw;
-    height: 30vh;
+  .table-center {    
+    width: 40vw;
   }
 }
