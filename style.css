@@ -109,4 +109,22 @@ button.buy-now {
   .table-center {    
     width: 40vw;
   }
+
+  .table-center th {    
+    font-size: 10px;    
+  }
+
+  .fa-minus {  
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .fol-month-starter,
+  .fa-check,
+  .fol-month-adv,
+  .fol-month-ent {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
 }
