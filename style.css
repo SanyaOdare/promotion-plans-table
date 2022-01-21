@@ -128,7 +128,11 @@ button.buy-now {
   }
   
   .buy-now {    
-    padding: .3rem 1rem;
+    padding: .3rem 1.5rem;
     font-size: .7rem;
+  }
+
+  .all-plan-hd {
+    font-size: 12px;
   }
 }
